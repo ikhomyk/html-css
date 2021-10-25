@@ -1,0 +1,40 @@
+.badges-block {
+    background-color: aliceblue;
+    color: rgb(58, 58, 63);
+    display: flex;
+    justify-content: space-between;
+}
+
+.badges-block .badges-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px silver solid;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.badges-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.badges-item .count {
+    font-size: 60px;
+}
+
+hr {
+    width: 20px;
+}
+
+.count-badge {
+    width: 24%;
+}
+
+.total-badge {
+    width: 28%;
+}

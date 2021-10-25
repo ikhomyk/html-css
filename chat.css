@@ -1,0 +1,134 @@
+.chat-block {
+    margin-left: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28%;
+    box-shadow:   inset 0px 1px 1px 0 silver;
+}
+
+.video-detail .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.video-detail .header .title {
+    font-size: 25px;
+    color: rgb(82, 82, 82);
+}
+
+.video-detail .header .button {
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button .approve {
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    padding: 0;
+}
+.button .approve:hover {
+    background-color: rgb(45, 109, 161);
+    color: white;
+}
+
+.button .decline {
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    padding: 0;
+}
+
+.button .decline:hover {
+    background-color: rgb(163, 47, 47);
+    color: white;
+}
+
+.video-detail .video {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.video-detail .video img {
+    width: 200px;
+    height: 150px;
+}
+
+.chat-element .message {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.chat-element .text {
+    border: 2px solid #dedede;
+    background-color: #e6f0ff;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+.chat-element .message img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 10px 15px;
+}
+
+.warning {
+    padding: 10px 20px;
+}
+
+.warning span {
+    margin: 5px;
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+}
+
+.message-input {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    background-color: transparent;
+    border-top: 1px solid silver;
+    padding: 0;
+}
+
+.message-input input[type="text"] {
+    padding: 15px 20px;
+    width: 370px;
+    border: none;
+}
+
+.message-input .attachment {
+    border: none;
+    background-color: transparent;
+    border-right: 1px solid silver;
+    width: 50px;
+    align-items: center;
+    display: flex;
+    color: rgb(54, 54, 54);
+    justify-content: center;
+}
+
+.message-input .send {
+    border: none;
+    width: 80px;
+}

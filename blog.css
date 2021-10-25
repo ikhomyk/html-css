@@ -1,0 +1,128 @@
+.blog-block {
+  margin-right: -2px;
+  background-color: white;
+  box-shadow:   inset 0 0 1px 0 silver;
+  width: 72%;
+  overflow: scroll;
+}
+
+.search-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  color: rgb(82, 82, 82);
+}
+
+.search-element input {
+  width: 250px;
+  padding: 20px;
+  height: 35px;
+  border: 1px solid silver;
+  border-radius: 25px;
+}
+
+.search-element span .sort-by {
+  padding-left: 5px;
+  font-weight: 700;
+}
+
+.search-element input:focus-visible {
+  outline: none;
+}
+
+.search-element input::placeholder {
+  color: silver;
+  font-style: italic;
+}
+
+.blog-element {
+  display: flex;
+  color: rgb(87, 85, 85);
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.blog-element:hover {
+  background-color: aliceblue;
+  box-shadow: none;
+}
+
+
+
+.avatar .circle {
+  border-radius: 100%;
+  border: 4px solid rgb(34, 161, 51);
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar .circle img {
+  border-radius: 100%;
+  padding: 8px;
+  width: 90px;
+  height: 90px;
+}
+
+.blog-element .description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description .summary {
+  margin-bottom: 15px;
+}
+
+.description .summary .title {
+  font-size: 20px;
+}
+
+.description .summary .endorsement-text {
+  font-size: 15px;
+}
+
+.description .summary .device {
+  color: rgb(22, 121, 121);
+  font-weight: bold;
+}
+
+.subscribers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.subscribers .subscribers-element {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  border-right: 1px solid silver;
+}
+
+.video img {
+  width: 360px;
+  height: 120px;
+}
+
+.video .summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.video .summary .status {
+  background-color: rgb(34, 161, 51);
+  color: white;
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.video .summary .price {
+  font-size: 17px;
+  font-weight: bold;
+}
